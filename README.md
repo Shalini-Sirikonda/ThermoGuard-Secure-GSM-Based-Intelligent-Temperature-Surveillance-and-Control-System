@@ -55,7 +55,7 @@ The ThermoGuard system is built around the **LPC2148 ARM7 microcontroller**, whi
 | **16×2 LCD**           | Temperature and status display     |
 | **LM35**               | Temperature sensing                |
 | **Buzzer**             | Temperature alert indication       |
-| **AT24LC256**          | EEPROM configuration storage       |
+| **AT24C256**          | EEPROM configuration storage       |
 | **Switch**             | External interrupt trigger         |
 | **Keypad**             | Password and local set-point entry |
 
