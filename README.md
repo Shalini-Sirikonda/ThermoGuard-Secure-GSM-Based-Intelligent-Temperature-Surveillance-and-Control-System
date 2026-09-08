@@ -8,7 +8,7 @@ An intelligent GSM-based embedded temperature surveillance and control system de
 
 **ThermoGuard** is a real-time embedded temperature monitoring and control system designed for environments where temperature must be continuously monitored and maintained within safe limits.
 
-The system uses an **LM35 temperature sensor** interfaced with the **LPC2148 ARM7 microcontroller**. The measured temperature is displayed on a **16×2 LCD** and continuously compared with a predefined temperature set point stored in **AT24LC256 EEPROM**.
+The system uses an **LM35 temperature sensor** interfaced with the **LPC2148 ARM7 microcontroller**. The measured temperature is displayed on a **16×2 LCD** and continuously compared with a predefined temperature set point stored in **AT24C256 EEPROM**.
 
 When the temperature exceeds the configured threshold, the system activates a **buzzer** and sends an alert SMS to the authorized mobile number through the **M660A GSM module**.
 
@@ -497,7 +497,7 @@ Verify GSM communication using AT commands before integrating the GSM module wit
 <img width="1080" height="1160" alt="image" src="https://github.com/user-attachments/assets/42b9561d-c1a9-45a7-a55d-e0abb4a18453" />
 
 
-**Figure 5. GSM-Based SMS Communication**
+**Figure 4. GSM-Based SMS Communication**
 
 ---
 
@@ -520,6 +520,25 @@ Verify GSM communication using AT commands before integrating the GSM module wit
 * ✔ UART interrupt-based GSM communication
 * ✔ I²C-based EEPROM communication
 * ✔ 16×2 LCD monitoring interface
+
+---
+
+## 📌 Project Information
+
+| Details                  | Information                   |
+| ------------------------ | ----------------------------- |
+| **Project Name**         | ThermoGuard                   |
+| **Project Type**         | Embedded Systems / ARM7 / GSM |
+| **Microcontroller**      | LPC2148                       |
+| **Programming Language** | Embedded C                    |
+| **GSM Module**           | M660A                         |
+| **Temperature Sensor**   | LM35                          |
+| **Display**              | 16×2 LCD                      |
+| **EEPROM**               | AT24C256                     |
+| **Communication**        | GSM / UART                    |
+| **EEPROM Interface**     | I²C                           |
+| **Development Tool**     | Keil C Compiler               |
+| **Programming Tool**     | Flash Magic                   |
 
 ---
 
@@ -559,7 +578,7 @@ Possible future improvements include:
 
 **ThermoGuard: Secure GSM-Based Intelligent Temperature Surveillance and Control System** demonstrates the integration of embedded systems with GSM-based remote communication and secure access control.
 
-The system combines the **LPC2148 ARM7 microcontroller, LM35 temperature sensor, M660A GSM module, 16×2 LCD, AT24LC256 EEPROM, keypad, external interrupts, buzzer, UART, I²C, and ADC**.
+The system combines the **LPC2148 ARM7 microcontroller, LM35 temperature sensor, M660A GSM module, 16×2 LCD, AT24C256 EEPROM, keypad, external interrupts, buzzer, UART, I²C, and ADC**.
 
 The project provides real-time temperature surveillance, automatic alert generation, secure remote configuration, and authenticated local set-point modification.
 
@@ -574,25 +593,6 @@ It demonstrates practical implementation of **Embedded C, ARM7 architecture, ADC
 **Electronics and Communication Engineering**
 
 **Malla Reddy College of Engineering and Technology**
-
----
-
-## 📌 Project Information
-
-| Details                  | Information                   |
-| ------------------------ | ----------------------------- |
-| **Project Name**         | ThermoGuard                   |
-| **Project Type**         | Embedded Systems / ARM7 / GSM |
-| **Microcontroller**      | LPC2148                       |
-| **Programming Language** | Embedded C                    |
-| **GSM Module**           | M660A                         |
-| **Temperature Sensor**   | LM35                          |
-| **Display**              | 16×2 LCD                      |
-| **EEPROM**               | AT24LC256                     |
-| **Communication**        | GSM / UART                    |
-| **EEPROM Interface**     | I²C                           |
-| **Development Tool**     | Keil C Compiler               |
-| **Programming Tool**     | Flash Magic                   |
 
 ---
 
