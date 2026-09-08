@@ -501,6 +501,25 @@ Verify GSM communication using AT commands before integrating the GSM module wit
 
 ---
 
+## 📌 Project Information
+
+| Details                  | Information                   |
+| ------------------------ | ----------------------------- |
+| **Project Name**         | ThermoGuard                   |
+| **Project Type**         | Embedded Systems / ARM7 / GSM |
+| **Microcontroller**      | LPC2148                       |
+| **Programming Language** | Embedded C                    |
+| **GSM Module**           | M660A                         |
+| **Temperature Sensor**   | LM35                          |
+| **Display**              | 16×2 LCD                      |
+| **EEPROM**               | AT24C256                     |
+| **Communication**        | GSM / UART                    |
+| **EEPROM Interface**     | I²C                           |
+| **Development Tool**     | Keil C Compiler               |
+| **Programming Tool**     | Flash Magic                   |
+
+---
+
 ## 🚀 Features
 
 * ✔ Real-time temperature monitoring
@@ -520,25 +539,6 @@ Verify GSM communication using AT commands before integrating the GSM module wit
 * ✔ UART interrupt-based GSM communication
 * ✔ I²C-based EEPROM communication
 * ✔ 16×2 LCD monitoring interface
-
----
-
-## 📌 Project Information
-
-| Details                  | Information                   |
-| ------------------------ | ----------------------------- |
-| **Project Name**         | ThermoGuard                   |
-| **Project Type**         | Embedded Systems / ARM7 / GSM |
-| **Microcontroller**      | LPC2148                       |
-| **Programming Language** | Embedded C                    |
-| **GSM Module**           | M660A                         |
-| **Temperature Sensor**   | LM35                          |
-| **Display**              | 16×2 LCD                      |
-| **EEPROM**               | AT24C256                     |
-| **Communication**        | GSM / UART                    |
-| **EEPROM Interface**     | I²C                           |
-| **Development Tool**     | Keil C Compiler               |
-| **Programming Tool**     | Flash Magic                   |
 
 ---
 
