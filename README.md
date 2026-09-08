@@ -131,7 +131,7 @@ The system supports:
 
 ### 5️⃣ 💾 EEPROM Module
 
-The **AT24LC256 EEPROM** is used for storing important configuration information.
+The **AT24C256 EEPROM** is used for storing important configuration information.
 
 Stored information can include:
 
